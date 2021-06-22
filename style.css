@@ -1,0 +1,129 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+
+
+html{
+ box-sizing: border-box;
+ margin: 0;  
+ padding: 0; 
+ width: 100%;
+ height: 100%;
+
+}
+
+body{
+    box-sizing: border-box;
+    margin: 0;  
+    padding: 0; 
+    width: 100%;
+    height: 100%;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+      
+}
+
+
+
+main{
+
+width: 800px;
+height: 400px;
+
+
+display: flex;
+justify-content: space-between;
+align-items: center;
+flex-direction: column;
+
+}
+
+
+.display{
+    width: 100%;
+    height: 100px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color:  rgba(0, 255, 0, 1);
+    font-size: 24px;
+}
+
+
+
+
+
+
+input{
+
+width: 200px;
+height: 30px;
+
+ background-color: transparent;
+ border: none;
+outline: none;
+ border-style:  solid;
+ color: rgba(0, 255, 0, 1);
+ border-top: 1px;
+ border-left:0px ;
+ border-right: 0px;
+
+ cursor: text;
+ color: rgba(0, 255, 0, 1);;
+
+}
+
+
+
+
+
+
+
+
+.time{
+    width: 100%;
+    height: 100px;
+
+
+
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: green;
+    font-size: 60px;
+
+
+}
+
+
+
+
+.qq{
+    width: 150px;
+    height: 40px;
+    background-color: transparent;
+    border: solid   green 2px;
+    color: rgba(0, 255, 0, 1);
+    cursor: pointer;
+    margin-top: 20px;
+    
+}
+
+.qq:hover{
+    border-color:greenyellow ;
+    
+}
+
+form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
